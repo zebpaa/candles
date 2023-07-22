@@ -274,6 +274,42 @@ ul {
   padding-bottom: 40px;
 }
 
+.courses__item-img{
+  position: relative;
+  color: #fff;
+  font-size: 11px;
+  font-family: "Yeseva One", cursive;
+}
+.courses__title{
+  padding: 15px;
+  left: -1px;
+}
+
+.courses__time{
+  padding: 8px 10px;
+  left: -1px;
+}
+
+.courses__time span{
+  font-size: 10px;
+  font-family: "Comfortaa", cursive;
+}
+
+.courses__price{
+  padding: 19px 10px;
+  right: 0px;
+  bottom: 2px;
+}
+
+.courses__price,
+.courses__title,
+.courses__time{
+  position: absolute;
+  background-color: #BEA495;
+}
+
+
+
 .footer {
   padding-top: 40px;
   padding-bottom: 35px;
